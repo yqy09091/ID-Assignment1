@@ -1,3 +1,33 @@
-body{
-    background-color: aqua;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo1{
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 50%;
+    display: inline-block;
+}
+.logo2{
+    margin-left: 20px;
+}
+.heading {
+    height: 41px;
+    border-top: 3px solid red;   
+    border-bottom: 1px solid #edeef0;
+    background-color: #fcfcfc;
+    line-height: 41px;
+}
+.heading a{
+    display: inline-block;
+    height: 41px;
+    padding: 0 20px;
+    font-size: 20px;
+    color:#4c4c4c;
+    text-decoration: none;
+}
+.heading a:hover{
+    color: red;
+    border-bottom: 2px solid salmon;
 }
