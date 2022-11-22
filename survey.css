@@ -1,0 +1,16 @@
+body{
+    background-color: gainsboro;
+}
+h1{
+    color: salmon;
+    text-align: center;
+}
+.form{
+    color:indigo
+}
+form {
+    font-size: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    border: double skyblue;
+}

@@ -2,25 +2,24 @@
     margin: 0px;
     padding: 0px;
 }
-.logo1{
+/*heading*/
+.logo1{ /*logo for upper part*/
     margin-left: 20px;
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
-    margin-right: 50%;
+    margin-right: 55%;
     display: inline-block;
 }
-.logo2{
+.logo2{  /*logo for lower part*/
     margin-left: 20px;
 }
 .heading {
     height: 41px;
     border-top: 3px solid red;   
-    border-bottom: 1px solid #edeef0;
-    background-color: #fcfcfc;
+    background-color: #edeef0;
     line-height: 41px;
 }
-.heading a{
-    display: inline-block;
+.heading a{  
     height: 41px;
     padding: 0 20px;
     font-size: 20px;
@@ -29,5 +28,165 @@
 }
 .heading a:hover{
     color: red;
-    border-bottom: 2px solid salmon;
+    border-bottom: 3px solid salmon;
+    
+}
+/*intro*/
+.intro{
+    height: 300px;
+    width: 100%;
+    background-color: burlywood;
+}
+.introheading{
+    height: 80px;
+    width: 100%;
+    background-color: darkgoldenrod;
+    text-align: center;
+    font-size: 20px;
+}
+.intro p{
+    font-size: 24px;
+}
+/*body part1 heading*/
+.heading2{
+    color: #4c4c4c;
+    background-color: #edeef0;
+    border-bottom: 3px solid red;
+    margin-bottom: 3px;
+}
+.coverimg{
+    max-width: 100%;
+    max-height: 30%;
+}
+
+/*body part2 event - upper*/
+.body2{
+    height: 460px;
+    width: 100%;
+    background-color: burlywood;
+}
+.body2heading{
+    height: 130px;
+    width: 100%;
+    background-color: darkgoldenrod;
+    text-align: center;
+    font-size: 20px;
+}
+/*body part2 event - lower*/
+.body2-left{
+    float: left;
+    height: 330px;
+    width: 32%; 
+    margin-right: 60px;
+    text-align: center;
+}
+.body2-left a{
+    color:black;
+    text-decoration: none;
+}
+.body2-mid{
+    float: left;
+    height: 330px;
+    width: 32%; 
+    text-align: center;
+}
+.body2-mid a{
+    color:black;
+    text-decoration: none;
+}
+.body2-right{
+    float: right;
+    height: 330px;
+    width: 32%; 
+    text-align: center;
+}
+.body2-right a{
+    color:black;
+    text-decoration: none;
+}
+.body2 a:hover{
+    color: white;
+}
+.detail1{
+    margin-bottom: 30%;
+}
+/*body part3 instrument */
+.body3{
+    height: 720px;
+    width: 100%;
+    background-color:#999;
+
+}
+/*body part3 instrument - heading*/
+.body3-heading{
+    height: 105px;
+    width: 100%;
+    /*background-color: #999;*/
+    text-align: center;
+    font-size: 20px;
+}
+/*body part3 instrument - instrument img/name/section by ul-li*/
+li {
+    list-style: none;
+  }
+.Instruments ul{
+    width: 100%;
+    padding-left: 20px;
+}
+
+.Instruments ul li{
+    float:left;
+    width: 230px;
+    height: 270px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+.Instruments ul li img{
+    width: 100%;
+    height: 80%;
+}
+.Instruments ul li h4{
+    margin: 0 20px;
+}
+
+.Instruments .info{
+    margin: 0 20px;
+    border-top: 1px solid #999;
+    font-size: 12px;
+    color: black;
+}
+
+.Instruments .info span{
+    color: orange;
+}
+/*footer*/
+.footer{
+    height: 315px;
+    background-color: #ccc;
+}
+.footer .part1{
+    padding-top: 15px;
+    text-decoration: none;
+}
+.survey{
+    float: left;
+}
+.survey .survey1{
+    display:block;
+    width: 118px;
+    height: 33px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 33px;
+    font-size:16px;
+    margin-left: 20px;
+}
+
+.links{
+    text-align: center;
+}
+
+.links dl{
+    margin-right: 18%;
 }
