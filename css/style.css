@@ -9,6 +9,7 @@
     font-family: 'Montserrat', sans-serif;
     margin-right: 55%;
     display: inline-block;
+
 }
 .logo2{  /*logo for lower part*/
     margin-left: 20px;
@@ -17,7 +18,7 @@
     height: 41px;
     border-top: 3px solid red;   
     background-color: #edeef0;
-    line-height: 41px;
+    line-height: 5px;
 }
 .heading a{  
     height: 41px;

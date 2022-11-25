@@ -17,7 +17,7 @@
     height: 41px;
     border-top: 3px solid red;   
     background-color: #edeef0;
-    line-height: 41px;
+    line-height: 5px;
 }
 .heading a{  
     height: 41px;
@@ -38,7 +38,7 @@
     margin-bottom: 3px;
 }
 .intro{
-    height: 2500px;
+    height: 2200px;
     width: 100%;
     background-color: burlywood;
 }
@@ -65,5 +65,5 @@
     margin-right: 40px;
 }
 .membertxt{
-    margin-top: 100px;
+    margin-top: 3%;
 }

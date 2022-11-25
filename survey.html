@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="survey.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/survey.css">
     <title>survey</title>
 </head>
 <body>
     <h1>CO FeedBack Form</h1>
-    <form action="xxdadwfwfwefewfxx.php" method="get" class="form">
+    <form action="#" method="get" class="form">
         <!--asdadsa-->
         Name   : <br><input type="text" name="userName" value=""><br>
         <div style="height:10px;"></div>
@@ -32,10 +33,17 @@
         Area For Feedback:<br> Bug<input type="checkbox" name="hobby" checked> Improvement<input type="checkbox" name="hobby"> Event<input type="checkbox" name="hobby">Others<input type="checkbox" name="hobby"><br>
         FeedBack:<br>
         <textarea cols="40" rows="4">
-        </textarea><br>
-        <input type="submit" value="submit">
-        <input type="reset" value="Reset">
-        <input type="button" value="this is button"><br>
+        </textarea><br><div class="popup" onclick="myFunction()">
+            <script>
+                // When the user clicks on div, open the popup
+                function myFunction() {
+                  var popup = document.getElementById("myPopup");
+                  popup.classList.toggle("show");
+                }
+                </script><input type="Submit" value="submit">
+            <span class="popuptext" id="myPopup">You Have successful submit you feedback</span>
+          </div>                        <input type="reset" value="Reset">
+
         <div style="height:10px;"></div>
         Up load a screenshot for bug: <input type="file">
         <br>
