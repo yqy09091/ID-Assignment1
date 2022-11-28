@@ -3,39 +3,81 @@
     padding: 0px;
 }
 /*heading*/
-.logo1{ /*logo for upper part*/
-    margin-left: 20px;
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
-    margin-right: 55%;
-    display: inline-block;
-}
-.logo2{  /*logo for lower part*/
-    margin-left: 20px;
-}
-.heading {
-    height: 41px;
-    border-top: 3px solid red;   
-    background-color: #edeef0;
-    line-height: 5px;
-}
-.heading a{  
-    height: 41px;
-    padding: 0 20px;
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: goldenrod;
+    color: white;
     font-size: 20px;
-    color:#4c4c4c;
+    border-top: 3px solid red;  
+    border-bottom: 3px solid red;  
+}
+.brand-title{
+    font-size: 1.5rem;
+    margin: .5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.navbar-links ul {
+    margin:  0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li{
+    list-style: none;
+}
+.navbar-links li a{
     text-decoration: none;
+    color:white;
+    padding: 1rem;
+    display: block;
 }
-.heading a:hover{
+.navbar-links li:hover{
+    background: burlywood;
     color: red;
-    border-bottom: 3px solid salmon;
-    
 }
-.heading2{
-    color: #4c4c4c;
-    background-color: #edeef0;
-    border-bottom: 3px solid red;
-    margin-bottom: 3px;
+.toggle-button{
+    position: absolute;
+    top:.75rem;
+    right:1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+@media(max-width:400px){
+    .toggle-button{
+        display:flex;
+    }
+    .navbar-links{
+        display:none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links li{
+        text-align: center;
+    }
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+    .navbar-links .active{
+        display: flex;
+    }
 }
 .iintro{
     height: 2500px;
@@ -141,3 +183,289 @@ li {
     font-size: 16px;
     color: black;
 }
+/*footer*/
+.footer{
+    height: 315px;
+    background-color: #ccc;
+}
+.footer p{
+    font-size: 12px;
+}
+.footer .part1{
+    padding-top: 15px;
+    text-decoration: none;
+}
+.survey{
+    float: left;
+}
+.survey .survey1{
+    display:block;
+    width: 118px;
+    height: 33px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 33px;
+    font-size:16px;
+    margin-left: 20px;
+}
+
+.links{
+    text-align: center;
+}
+
+.links dl{
+    margin-right: 18%;
+}
+.survey1{
+    text-decoration:none ;
+}
+@media(max-width:880px){
+    .iintro p{
+        font-size: 12px;
+    }
+    .iintro h1{
+        font-size: 20px;
+    }
+
+    .footer p{
+        font-size: 12px;
+    }
+    .footer img{
+        width: 30%;
+        height: 40%;
+    }
+    .footer a{
+        font-size: 12px;
+    }
+    .iintro{
+        height: 1400px;
+    }
+    .wind ul{
+        width: 100%;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    .wind .Wind1 .info{
+        font-size: 7px;
+    }
+    .wind ul li{
+        width: 80px;
+        height: 125px;
+        margin-right: 7px;
+        margin-bottom: 10px;
+    }
+    .wind ul li img{
+        width: 40%;
+        height: 25%;
+    }
+    .wind ul li h4{
+        margin: 0 10px;
+        color:burlywood;
+    }
+    
+    .wind .info{
+        margin: 0 10px;
+        border-top: 1px solid #999;
+        font-size: 12px;
+        color: black;
+    }
+    
+    .Bow ul{
+        width: 100%;
+        padding-left: 8px;
+    }
+    
+    .Bow ul li{
+        width: 90px;
+        height: 130px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: white;
+    }
+    .Bow ul li img{
+        width: 40%;
+        height: 30%;
+    }
+    .Bow ul li h4{
+        margin: 0 10px;
+    }
+    
+    .Bow .info{
+        margin: 0 10px;
+        border-top: 1px solid #999;
+        font-size: 10px;
+    }
+    
+
+    .percussion ul li img{
+        width: 40%;
+        height: 20%;
+    }
+    .percussion ul li h4{
+        margin: 0 10px;
+    }
+    
+    .percussion .info{
+        margin: 0 10px;
+        border-top: 1px solid #999;
+        font-size: 12px;
+    }
+    .percussion ul{
+        width: 100%;
+        padding-left: 5%;
+    }
+    
+    .percussion ul li{
+
+        width: 110px;
+        height: 170px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+
+    }
+    .percussion ul li img{
+        width: 40%;
+        height: 30%;
+    }
+    .percussion ul li h4{
+        margin: 0 10px;
+    }
+    
+    .percussion .info{
+        margin: 0 10px;
+        font-size: 8px;
+    }
+  }
+  @media(max-width:350px){
+    .iintro p{
+        font-size: 6px;
+    }
+    .iintro h1{
+        font-size: 12px;
+    }
+    .body2 .a2{
+        font-size: 10px; 
+    }
+
+    .Instruments ul li {
+        width: 20%;
+        height: 30%;
+    }
+    .Instruments ul li img{
+        width: 20%;
+        height: 30%;
+    }
+    .Instruments ul li h4{
+       font-size: 8px;
+    }
+    .Instruments ul li span{
+        font-size: 6px;
+    }
+    .Instruments ul li{
+        margin-right: 3px;
+        margin-bottom: 3px;
+    }
+    .footer p{
+        font-size: 10px;
+    }
+    .footer img{
+        width: 20%;
+        height: 30%;
+    }
+    .footer a{
+        font-size: 10px;
+    }
+    .iintro{
+        height: 1300px;
+    }
+    .wind ul{
+        width: 100%;
+        padding-left: 8px;
+        font-size: 8px;
+    }
+    .wind .Wind1 .info{
+        font-size: 7px;
+    }
+    .wind ul li{
+        width: 70px;
+        height: 100px;
+        margin-right: 7px;
+        margin-bottom: 8px;
+    }
+    .wind ul li img{
+        width: 30%;
+        height: 20%;
+    }
+    .wind ul li h4{
+        margin: 0 8px;
+    }
+    
+    .wind .info{
+        margin: 0 8px;
+        font-size: 10px;
+    }
+    
+    .Bow ul{
+        width: 100%;
+        padding-left: 8px;
+    }
+    
+    .Bow ul li{
+        width: 70px;
+        height: 100px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+    }
+    .Bow ul li img{
+        width: 30%;
+        height: 20%;
+    }
+    .Bow ul li h4{
+        margin: 0 8px;
+    }
+    
+    .Bow .info{
+        margin: 0 8px;
+        font-size: 8px;
+    }
+    
+
+    .percussion ul li img{
+        width: 30%;
+        height: 18%;
+    }
+    .percussion ul li h4{
+        margin: 0 8px;
+    }
+    
+    .percussion .info{
+        margin: 0 10px;
+        border-top: 1px solid #999;
+        font-size: 10px;
+    }
+    .percussion ul{
+        width: 100%;
+        padding-left: 5%;
+    }
+    
+    .percussion ul li{
+
+        width: 80px;
+        height: 120px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+
+    }
+    .percussion ul li img{
+        width: 30%;
+        height: 20%;
+    }
+    .percussion ul li h4{
+        margin: 0 8px;
+    }
+    
+    .percussion .info{
+        margin: 0 8px;
+        font-size: 7px;
+    }
+  }

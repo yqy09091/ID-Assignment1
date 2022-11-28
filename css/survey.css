@@ -1,18 +1,18 @@
 body{
-    background-color: gainsboro;
+  background-color: burlywood;
 }
 h1{
-    color: salmon;
-    text-align: center;
+  color: darkgoldenrod;
+  text-align: center;
 }
 .form{
-    color:indigo
+  color:black
 }
 form {
-    font-size: 20px;
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    border: double skyblue;
+  font-size: 20px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  border: double darkgoldenrod;
 }
 /* Popup container */
 .popup {
