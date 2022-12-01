@@ -8,8 +8,8 @@ This website is create for TCO for the events that TCO going to conduct like the
 ## Design Process
  This website is use to let eveyone know about TCO and more knowledge about chinese orchestra like its history or its instruments. I have add in many virtual things like what are the events the TCO going to conduct, most of the event is use my own experience and what i know to write.
  I also add in many instruments picture and some of their information inside but this is still not complete
-because there are too many traditional instruments  for example just sheng itself have have many types so i may edit the rest in the future
-For the member page, inorder to make this website like real i think a member is necessary so i use random face generator and random name generator to generate some picture and a name and at same time i give all of them a story about their past to make the website more realistic
+because there are too many traditional instruments  for example just sheng itself have have many types so I may edit the rest in the future
+For the member page, inorder to make this website like real I think a member is necessary so I use random face generator and random name generator to generate some picture and a name and at same time I give all of them a story about their past to make the website more realistic
 And the join us and feedback survey is also something I think as a orchestra website or as a website is needed so ai add both inside this assignment.
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
