@@ -3,8 +3,10 @@
 This is a project for ID-Assignment1, and what i did is a webiste for The Chinese Orchestra(TCO) TCO is
 a virtual or inexistent orchestra that i create for this assignment. 
 This website is create for TCO for the events that TCO going to conduct like the year end performance. And also shows the members, instruments TCO have, a form use to join TC and also TCO's history even though all the members are generate by AI.And at the same time also hope to tell people mroe about chinese orchestra.
-
- 
+# IMPORTANT NOTE FOR VEWING MY WEBSITE
+    My laptop default display setting for Scale and Layout is 125%, Display resolution is 1920 *1080
+    so my website is best match with this setting, if open my website in other setting like 150% parts of the website will be messy. You can click the right click of the mouse -> Display settings to set your display setting
+    For responsive my website has develop responsive for iPhone SE
 ## Design Process
  This website is use to let eveyone know about TCO and more knowledge about chinese orchestra like its history or its instruments. I have add in many virtual things like what are the events the TCO going to conduct, most of the event is use my own experience and what i know to write.
  I also add in many instruments picture and some of their information inside but this is still not complete
@@ -60,6 +62,14 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Credits
+-video for chinesnewyearevent.html page is from [youtube, Singapore Chinese Orchestra](https://www.youtube.com/watch?v=3iAi4BAuDuM)
+-video for overseaevent.html page is from [youtube, Singapore Chinese Orchestra](https://www.youtube.com/watch?v=zKZgxr_MJew)
+-video for yearendevent.html page is from [youtube, Singapore Chinese Orchestra](https://www.youtube.com/watch?v=3iAi4BAuDuM)
+- The photos used in Home page as cover and Home page for insturment is from [Singapore Chinese Orchestra](https://www.sco.com.sg/en/)
+-The photos used in instrument page is from [Chinese Musical Instruments](https://www.easonmusicschool.com/)
+- picture use in member page is from [Face Generator](https://generated.photos/face-generator/new)
+-The text for instrument was copied from[Chinese Musical Instruments](https://www.easonmusicschool.com/)
+- The text for History was copied from the [Wikipedia](https://en.wikipedia.org/wiki/Z)
 
 ### Content
 -The text for instrument was copied from[Chinese Musical Instruments](https://www.easonmusicschool.com/)
@@ -72,4 +82,4 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from both singapore chinese orchestra(SCO) webiste and wix website

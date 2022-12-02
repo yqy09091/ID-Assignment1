@@ -151,7 +151,6 @@
     float: left;
     height: 330px;
     width: 32%; 
-    margin-right: 60px;
     text-align: center;
 }
 .body2-left a{
@@ -169,7 +168,7 @@
     text-decoration: none;
 }
 .body2-right{
-    float: right;
+    float: left;
     height: 330px;
     width: 32%; 
     text-align: center;
@@ -186,7 +185,7 @@
 }
 /*body part3 instrument */
 .body3{
-    height: 720px;
+    height: 800px;
     width: 100%;
     background-color:#999;
 
@@ -374,4 +373,61 @@ li {
     .footer a{
         font-size: 10px;
     }
+  }
+  @media(max-width:375px){
+    .intro p{
+        font-size: 6px;
+    }
+    .intro h1{
+        font-size: 12px;
+    }
+    .body2 .a2{
+        font-size: 10px; 
+    }
+    .body2 p{
+        font-size: 6px;
+    }
+    .body2 h1{
+        font-size: 12px;
+    }
+    .body2 .body2-left{
+        margin-right: 4px;
+    }
+    .body3 p{
+        font-size: 6px;
+    }
+    .body3 h1{
+        font-size: 12px;
+    }
+    .Instruments ul li {
+        width: 20%;
+        height: 30%;
+    }
+    .Instruments ul li img{
+        width: 20%;
+        height: 30%;
+    }
+    .Instruments ul li h4{
+       font-size: 8px;
+    }
+    .Instruments ul li span{
+        font-size: 6px;
+    }
+    .Instruments ul li{
+        margin-right: 3px;
+        margin-bottom: 3px;
+    }
+    .footer p{
+        font-size: 10px;
+    }
+    .footer img{
+        width: 20%;
+        height: 30%;
+    }
+    .footer a{
+        font-size: 10px;
+    }
+  }
+  @media(-webkit-device-pixel-ratio:1.50){*{
+    zoom: 0.97;}
   }
