@@ -150,22 +150,25 @@
         font-size: 12px;
     }
   }
-  @media(max-width:350px){
+  @media(max-width:360px){
     .iintro p{
-        font-size: 6px;
+        font-size: 10px;
     }
     .iintro h1{
-        font-size: 12px;
+        font-size: 18px;
     }
     
     .footer p{
-        font-size: 10px;
+        font-size: 12px;
     }
     .footer img{
         width: 20%;
         height: 30%;
     }
     .footer a{
-        font-size: 10px;
+        font-size: 8px;
+    }
+    .iintro{
+        height: 800px;
     }
   }

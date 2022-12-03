@@ -152,9 +152,9 @@
 .survey1{
     text-decoration:none ;
 }
-@media(max-width:880px){
+@media(max-width:800px){
     .intro{
-        height: 1200px;
+        height: 1100px;
         width: 100%;
         background-color: burlywood;
     }
@@ -186,17 +186,17 @@
         font-size: 12px;
     }
   }
-  @media(max-width:350px){
+  @media(max-width:360px){
     .intro{
-        height: 1000px;
+        height: 750px;
         width: 100%;
         background-color: burlywood;
     }
     .intro p{
-        font-size: 6px;
+        font-size: 8px;
     }
     .intro h1{
-        font-size: 12px;
+        font-size: 14px;
     }
     .member img{
         width: 100%;
