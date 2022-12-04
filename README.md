@@ -15,13 +15,13 @@ For the member page, inorder to make this website like real I think a member is 
 And the join us and feedback survey is also something I think as a orchestra website or as a website is needed so ai add both inside this assignment.
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
-
+## Pages for website
+1. Home page 
+2. Instrument page 
+3. Member page 
+4. HIstory page 
+5. surve for feedback
+6. form for join us
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -30,6 +30,10 @@ In this section, you should go over the different parts of your project, and des
 - Feature 1 - allows all users to vist all the pages(home page, instrument page, member page, histroy page) in TCO website
 - Feature 2 - allows all users to be able to use the join us to feel in the join use form
 - Feature 3 - allows all users to use and take the feedback survey form
+- Feature 4 - animation for welcome text
+- Feature 5 - footer for all page
+- Feature 6 - sticky for heading
+
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
@@ -47,21 +51,11 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail asis relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+After testing my website is best working in 1980*1080 with 125% scale, and 360pxwidth for 125% scale, 375pxwidth for 125% scale
 
 ## Credits
+-popup is i learn and use from [w3school](https://www.w3schools.com/howto/howto_js_popup.asp)
+-heading bar is use and change from [youtube, Web Dev Simplified](https://www.youtube.com/watch?v=At4B7A4GOPg)
 -video for chinesnewyearevent.html page is from [youtube, Singapore Chinese Orchestra](https://www.youtube.com/watch?v=3iAi4BAuDuM)
 -video for overseaevent.html page is from [youtube, Singapore Chinese Orchestra](https://www.youtube.com/watch?v=zKZgxr_MJew)
 -video for yearendevent.html page is from [youtube, Singapore Chinese Orchestra](https://www.youtube.com/watch?v=3iAi4BAuDuM)

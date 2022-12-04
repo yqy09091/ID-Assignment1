@@ -470,7 +470,139 @@ li {
         font-size: 7px;
     }
   }
- 
+  @media(max-width:360px){
+    .iintro p{
+        font-size: 8px;
+    }
+    .iintro h1{
+        font-size: 12px;
+    }
+    .body2 .a2{
+        font-size: 10px; 
+    }
+
+    .Instruments ul li {
+        width: 20%;
+        height: 30%;
+    }
+    .Instruments ul li img{
+        width: 20%;
+        height: 30%;
+    }
+    .Instruments ul li h4{
+       font-size: 8px;
+    }
+    .Instruments ul li span{
+        font-size: 6px;
+    }
+    .Instruments ul li{
+        margin-right: 3px;
+        margin-bottom: 3px;
+    }
+    .footer p{
+        font-size: 10px;
+    }
+    .footer img{
+        width: 20%;
+        height: 30%;
+    }
+    .footer a{
+        font-size: 10px;
+    }
+    .iintro{
+        height: 1300px;
+    }
+    .wind ul{
+        width: 100%;
+        padding-left: 8px;
+        font-size: 8px;
+    }
+    .wind .Wind1 .info{
+        font-size: 7px;
+    }
+    .wind ul li{
+        width: 50px;
+        height: 220px;
+        margin-right: 7px;
+        margin-bottom: 8px;
+    }
+    .wind ul li img{
+        width: 100%;
+        height: 30%;
+    }
+    .wind ul li h4{
+        margin: 0 8px;
+    }
+    
+    .wind .info{
+        margin: 0 8px;
+        font-size: 10px;
+    }
+    
+    .Bow ul{
+        width: 100%;
+        padding-left: 8px;
+    }
+    
+    .Bow ul li{
+        width: 60px;
+        height: 160px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+    }
+    .Bow ul li img{
+        width: 100%;
+        height: 40%;
+    }
+    .Bow ul li h4{
+        margin: 0 8px;
+    }
+    
+    .Bow .info{
+        margin: 0 8px;
+        font-size: 7px;
+    }
+    
+
+    .percussion ul li img{
+        width: 100%;
+        height: 25%;
+    }
+    .percussion ul li h4{
+        margin: 0 8px;
+    }
+    
+    .percussion .info{
+        margin: 0 10px;
+        border-top: 1px solid #999;
+        font-size: 10px;
+    }
+    .percussion ul{
+        width: 100%;
+        padding-left: 5%;
+    }
+    
+    .percussion ul li{
+
+        width: 100px;
+        height: 135px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+
+    }
+    .percussion ul li img{
+        width: 100%;
+        height: 30%;
+    }
+    .percussion ul li h4{
+        margin: 0 8px;
+    }
+    
+    .percussion .info{
+        margin: 0 8px;
+        font-size: 7px;
+    }
+  }
   @media(-webkit-device-pixel-ratio:1.50){*{
-    zoom: 0.97;}
+    zoom: 0.974;}
   }

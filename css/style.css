@@ -374,7 +374,7 @@ li {
         font-size: 10px;
     }
   }
-  @media(max-width:374px){
+  @media(max-width:375px){
     .intro p{
         font-size: 12px;
     }
@@ -442,7 +442,10 @@ li {
     .body2 p{
         font-size: 10px;
     }
+    .body3{
+        height: 600px;
   }
   @media(-webkit-device-pixel-ratio:1.50){*{
     zoom: 0.97;}
-  }
+  }}
+ 
