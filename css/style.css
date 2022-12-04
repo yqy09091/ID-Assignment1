@@ -320,6 +320,31 @@ li {
         font-size: 12px;
     }
   }
+  @media(max-width:2580px){
+
+    .body3 p{
+        font-size: 12px;
+    }
+    .body3 h1{
+        font-size: 20px;
+    }
+    .Instruments ul li {
+        width: 200px;
+        height: 250px;
+    }
+
+    .Instruments ul li h4{
+       font-size: 10px;
+    }
+    .Instruments ul li span{
+        font-size: 8px;
+    }
+    .Instruments ul li{
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+  }
   @media(max-width:360px){
     .intro p{
         font-size: 12px;
@@ -446,6 +471,6 @@ li {
         height: 600px;
   }
   @media(-webkit-device-pixel-ratio:1.50){*{
-    zoom: 0.97;}
+    zoom: 0.9;}
   }}
  
