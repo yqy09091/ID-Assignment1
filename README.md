@@ -13,7 +13,7 @@ This website is create for TCO for the events that TCO going to conduct like the
 because there are too many traditional instruments  for example just sheng itself have have many types so I may edit the rest in the future
 For the member page, inorder to make this website like real I think a member is necessary so I use random face generator and random name generator to generate some picture and a name and at same time I give all of them a story about their past to make the website more realistic
 And the join us and feedback survey is also something I think as a orchestra website or as a website is needed so ai add both inside this assignment.
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
 
 ## Pages for website
 1. Home page 
@@ -46,7 +46,6 @@ In addition, you may also use this section to discuss plans for additional featu
 -[ adobe XD](link:https://www.adobe.com/sg/products/xd.html)
     - which i feel that it is very useful for creating framework
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 
 ## Testing
